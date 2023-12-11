@@ -12,6 +12,24 @@
     /* color: blue; */
 }
 
+/* set */
+h1.title {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: .5rem;
+    padding: 50px;
+}
+
+h1.title::after {
+    content: '';
+    display: block;
+    width: 100px;
+    border: 2px solid var(--biru);
+    margin: auto;
+}
+
+
+/* navbar */
 .navbar {
     padding: 0;
     box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.16);
@@ -61,17 +79,6 @@
 
 /* harga */
 
-h1.title {
-    font-size: 3rem;
-    font-weight: 600;
-    letter-spacing: .5rem;
-    padding: 50px;
-}
-
-h1.title::after {
-    content: '';
-    display: block;
-    width: 100px;
-    border: 2px solid var(--biru);
-    margin: auto;
+.harga s {
+    font-size: .8rem;
 }
