@@ -99,10 +99,11 @@ h1.title::after {
 footer {
     position: relative;
     background: var(--biru2);
+    padding-top: 50px;
 }
 
 .footer-bg {
-    background-image: url(https://qrs.my.id/sekolah/assets/foto/footer_background.png);
+    background-image: url('./asset/footer_background.png');
     position: absolute;
     top: 0;
     left: 0;
