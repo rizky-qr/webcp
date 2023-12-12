@@ -116,6 +116,12 @@ footer .merek h1 {
     font-weight: 600;
 }
 
+footer .merek img {
+    border-radius: 50%;
+    border: 3px double var(--biru);
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.16);
+}
+
 footer .merek i {
     font-size: 2rem;
     margin: 10px;
