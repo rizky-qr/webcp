@@ -25,15 +25,24 @@ function getColor() {
     $(':root').css("--biru", color);
     $(':root').css("--biru2", color2);
 }
+function cerah() {
+    var cerah = $('.cerah input');
+    var color = 'hsl(' + cerah.val() + ',100%, 50%)';
+    var color2 = 'hsl(' + cerah.val() + ',90%, 40%)';
+    $(':root').css("--biru", color);
+    $(':root').css("--biru2", color2);
+}
 
 
 // dark
 $('.switch input').change(function () {
     if (this.checked) {
         $('body').attr('id', 'dark');
+        $('nav').attr('data-bs-theme', 'dark');
         console.log('dark');
     } else {
         $('body').removeAttr('id');
+        $('nav').removeAttr('data-bs-theme');
         console.log('light');
     }
 })
