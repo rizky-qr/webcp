@@ -1,5 +1,5 @@
 // banner
-var swiper = new Swiper(".banner", {
+var banner = new Swiper(".banner", {
     slidesPerView: 1,
     // spaceBetween: 10,
 
@@ -8,6 +8,39 @@ var swiper = new Swiper(".banner", {
         disableOnInteraction: true,
     },
     loop: true,
+});
+var testimoni = new Swiper(".testimoni", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+
+    autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    loop: true,
+    freeMode: true,
+    // grabCursor: true,
+    keyboard: {
+        enabled: true,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    breakpoints: {
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+        },
+    },
 
 });
 
