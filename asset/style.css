@@ -119,6 +119,15 @@ h1.title::after {
     align-items: center;
 }
 
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    color: var(--biru2);
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--biru2);
+}
+
 
 
 /* footer */
@@ -278,6 +287,10 @@ body#dark nav {
 }
 
 body#dark .banner .swiper-slide {
+    background: var(--dark);
+}
+
+body#dark .testimoni .swiper-slide {
     background: var(--dark);
 }
 
