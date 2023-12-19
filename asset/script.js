@@ -12,10 +12,9 @@ var banner = new Swiper(".banner", {
 var testimoni = new Swiper(".testimoni", {
     slidesPerView: 1,
     spaceBetween: 10,
-
     autoplay: {
         delay: 4000,
-        disableOnInteraction: false,
+        // disableOnInteraction: false,
     },
     navigation: {
         nextEl: ".swiper-button-next",
@@ -23,7 +22,6 @@ var testimoni = new Swiper(".testimoni", {
     },
     loop: true,
     freeMode: true,
-    // grabCursor: true,
     keyboard: {
         enabled: true,
     },
@@ -34,11 +32,11 @@ var testimoni = new Swiper(".testimoni", {
     breakpoints: {
         768: {
             slidesPerView: 2,
-            spaceBetween: 20,
+            spaceBetween: 10,
         },
         1024: {
             slidesPerView: 3,
-            spaceBetween: 30,
+            spaceBetween: 20,
         },
     },
 

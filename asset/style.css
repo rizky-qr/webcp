@@ -107,18 +107,18 @@ h1.title::after {
 
 .testimoni {
     width: 100%;
-    height: 200px;
+    /* height: 200px; */
     margin-bottom: 100px;
 }
 
 .testimoni .swiper-slide {
     text-align: center;
-    font-size: 18px;
     background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 
 /* footer */
