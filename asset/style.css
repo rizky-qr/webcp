@@ -144,7 +144,7 @@ h1.title::after {
 footer {
     position: relative;
     padding-top: 50px;
-    background: var(--biru2);
+    background: var(--biru);
     font-size: 1.2rem;
 }
 
@@ -167,7 +167,8 @@ footer .merek h1 {
 
 footer .merek img {
     border-radius: 50%;
-    outline: 5px double var(--biru);
+    background: white;
+    outline: 5px double var(--biru2);
 }
 
 footer .merek i {
@@ -196,7 +197,7 @@ footer a {
 }
 
 footer .copyright div {
-    border-top: 2px solid var(--biru);
+    border-top: 2px solid var(--biru2);
     padding: 20px;
 }
 
@@ -324,4 +325,8 @@ body#dark footer .copyright div {
 
 body#dark .set {
     color: white;
+}
+
+body#dark footer .merek img {
+    background: black;
 }
