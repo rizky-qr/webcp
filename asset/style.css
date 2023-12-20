@@ -103,7 +103,17 @@ h1.title::after {
     font-size: .8rem;
 }
 
-/*  */
+/* Service */
+#service img {
+    transition: all .5s ease;
+}
+
+#service img:hover {
+    transform: scale(1.1);
+}
+
+
+/* Testimoni */
 
 .testimoni {
     width: 100%;
