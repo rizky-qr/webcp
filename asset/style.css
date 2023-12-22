@@ -16,7 +16,7 @@
 }
 
 body {
-
+    overflow-x: hidden;
     background: var(--light);
 }
 
@@ -329,4 +329,21 @@ body#dark .set {
 
 body#dark footer .merek img {
     background: black;
+}
+
+
+.infinity div {
+    position: absolute;
+    z-index: -1;
+    background: radial-gradient(circle, var(--biru), var(--light) 100%);
+    border-radius: 50%;
+    filter: blur(10px);
+}
+
+body#dark .infinity div {
+    position: absolute;
+    z-index: -1;
+    background: radial-gradient(circle, var(--biru), var(--dark) 100%);
+    border-radius: 50%;
+    /* filter: blur(5px); */
 }
