@@ -368,6 +368,26 @@
         <div></div>
         <div></div>
         <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
     </div>
 
     <!-- boostrap -->
@@ -390,16 +410,16 @@
         $(".infinity div").each(function (i) {
             tinggi = $('body').css('height').split(".")[0] - 200;
             lebar = screen.width;
-            bulat = Math.floor(Math.random() * 100) + 20;
-            $('.infinity div:nth-child(' + i + ')').css('top', 0)
+            bulat = Math.floor(Math.random() * 30) + 10;
+            $('.infinity div:nth-child(' + i + ')').css('top', -200)
             $('.infinity div:nth-child(' + i + ')').css('left', Math.floor(Math.random() * lebar))
             anime({
                 targets: '.infinity div:nth-child(' + i + ')',
                 translateZ: Math.floor(Math.random() * tinggi),
-                translateX: Math.floor(Math.random() * lebar),
-                translateY: tinggi,
-                width: bulat,
-                height: bulat,
+                translateX: (Math.floor(Math.random() * lebar) - Math.floor(Math.random() * lebar)),
+                translateY: tinggi + 50,
+                width: [bulat, bulat],
+                height: [bulat, bulat],
                 direction: 'alternate',
                 loop: true,
                 easing: 'easeInOutSine',
